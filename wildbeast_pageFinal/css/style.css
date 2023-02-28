@@ -1,0 +1,36 @@
+body,
+p,
+h1,
+ul,
+li,
+blockquote{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  font-family: 'vollkorn', Georgia, serif;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.estrutura{
+  display: grid;
+  grid-template-columns: minmax(160px, 1fr) 3fr 300px;
+  grid-area: 
+  'header header header'
+  'sidenav content anuncios'
+  'footer footer footer';
+}
